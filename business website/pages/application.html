@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Place an event popcorn order with KJB Popcorn in Akure, Nigeria.">
+    <title>Event Orders | KJB Popcorn</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>KJB POPCORN</h1>
+        <p>One taste. You'll want more.</p>
+
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Products and Services</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="application.html" aria-current="page">Event Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section aria-labelledby="application-heading">
+            <h2 id="application-heading">Request Popcorn for Your Event</h2>
+
+            <p>
+                Planning a birthday, wedding, meeting, party or other occasion?
+                KJB Popcorn can help make your event more enjoyable.
+                Complete the form below to tell us what you need.
+            </p>
+        </section>
+
+        <section aria-labelledby="order-form-heading">
+            <h2 id="order-form-heading">Event Order Application Form</h2>
+
+            <form action="#" method="get">
+
+                <fieldset>
+                    <legend>Customer Information</legend>
+
+                    <p>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name"
+                               autocomplete="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email"
+                               autocomplete="email" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone"
+                               autocomplete="tel" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Event Information</legend>
+
+                    <p>
+                        <label for="event-name">Name of Event:</label>
+                        <input type="text" id="event-name" name="event-name"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="event-type">Type of Event:</label>
+                        <select id="event-type" name="event-type" required>
+                            <option value="">Select an event type</option>
+                            <option value="birthday">Birthday Party</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="meeting">Business Meeting</option>
+                            <option value="school">School Event</option>
+                            <option value="religious">Religious Event</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="event-date">Event Date:</label>
+                        <input type="date" id="event-date" name="event-date"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="guest-number">Estimated Number of Guests:</label>
+                        <input type="number" id="guest-number"
+                               name="guest-number" min="1" required>
+                    </p>
+
+                    <p>
+                        <label for="event-location">Event Location:</label>
+                        <input type="text" id="event-location"
+                               name="event-location" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Popcorn Preferences</legend>
+
+                    <p>Which flavour would you like?</p>
+
+                    <p>
+                        <input type="radio" id="caramel" name="flavour"
+                               value="caramel" required>
+                        <label for="caramel">Caramel</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="honey-milky"
+                               name="flavour" value="honey-milky">
+                        <label for="honey-milky">Honey-Milky Mix</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="both-flavours"
+                               name="flavour" value="both">
+                        <label for="both-flavours">Both Flavours</label>
+                    </p>
+
+                    <p>
+                        <label for="quantity">Estimated Number of Packs:</label>
+                        <input type="number" id="quantity" name="quantity"
+                               min="1" required>
+                    </p>
+
+                    <p>
+                        <label for="budget">Estimated Budget (₦):</label>
+                        <input type="number" id="budget" name="budget"
+                               min="0">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <p>
+                        <label for="reference">Link to Event Information (optional):</label>
+                        <input type="url" id="reference" name="reference"
+                               placeholder="https://example.com">
+                    </p>
+
+                    <p>
+                        <label for="details">Additional Requests or Instructions:</label>
+                        <textarea id="details" name="details"
+                                  rows="6" cols="40"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="agreement"
+                               name="agreement" value="yes" required>
+                        <label for="agreement">
+                            I confirm that the information provided is correct.
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Event Request</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section aria-labelledby="contact-help-heading">
+            <h2 id="contact-help-heading">Need Assistance?</h2>
+
+            <p>
+                You can also visit KJB Popcorn opposite FUTA Southgate,
+                Akure, Ondo State, Nigeria, to make an enquiry.
+            </p>
+
+            <p>
+                <a href="../contact.html">Visit our contact page</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KJB Popcorn. All rights reserved.</p>
+        <p>One taste. You'll want more.</p>
+    </footer>
+
+</body>
+</html>
